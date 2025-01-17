@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f5f0;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .logo-title {
+    font-size: 2rem;
+    color: #ffaf30;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .login-box {
+    width: 360px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    background-color: white;
+    color: black;
+  }
+  
+  .input-group input:focus {
+    border-color: #ffaf30;
+    box-shadow: 0 0 5px rgba(255, 175, 48, 0.5);
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ffaf30;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #ff9800;
+  }
+  
+  .forgot-password {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .login-box {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .logo-title {
+      font-size: 1.8rem;
+    }
+  
+    .login-title {
+      font-size: 1.3rem;
+    }
+  
+    .input-group input {
+      font-size: 0.85rem;
+      padding: 8px;
+    }
+  
+    .login-button {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    .forgot-password {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo-title {
+      font-size: 1.5rem;
+    }
+  
+    .login-title {
+      font-size: 1.1rem;
+    }
+  
+    .login-box {
+      padding: 10px;
+    }
+  
+    .input-group input {
+      font-size: 0.8rem;
+      padding: 6px;
+    }
+  
+    .login-button {
+      font-size: 0.85rem;
+      padding: 6px;
+    }
+  
+    .forgot-password {
+      font-size: 0.75rem;
+    }
+  }
